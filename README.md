@@ -26,6 +26,7 @@
 
 **TL;DR:** [Gargi Mehta](https://gaargimehta.github.io/Gaargimehta/) is a Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at [SRM Institute of Science and Technology, Kattankulathur](https://www.srmist.edu.in/) (Class of 2027, CGPA 8.2). Her work focuses on applied machine learning, convolutional computer vision, pediatric clinical decision support, and verifiable clean-tech architectures for battery lifecycle verification.
 
+* [ProcureGuard AI (B.Tech Major Project)](procureguard-ai/): Intelligent e-procurement monitoring and anti-collusion surveillance platform combining PyTorch GraphSAGE (GNN), XGBoost, Random Forest, Isolation Forest, and interactive network forensics.
 * [Blockchain Battery Passport](https://github.com/Gaargimehta/blockchain-battery-passport): Machine learning-based State-of-Health (SOH) and Remaining Useful Life (RUL) estimation with cryptographic on-chain attestations for EV battery circularity.
 * [NutriVision](https://github.com/Gaargimehta/Nutivision): Computer vision and deep convolutional neural networks for meal classification, portion estimation, and nutritional decomposition.
 * [UPJ Obstruction Clinical Decision ML](https://github.com/Gaargimehta/upj-obstruction-ml): Clinically aligned pediatric nephrology decision support system.
