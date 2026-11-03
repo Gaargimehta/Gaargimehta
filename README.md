@@ -12,7 +12,11 @@
 
 <!-- Availability Badge -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Open_to_ML%2FAI_Internships-080B12?style=flat&logo=target&logoColor=22D3EE&labelColor=1E293B" height="20" alt="Open to ML/AI internships" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Status-Open_to_ML%2FAI_Internships-080B12?style=flat-square&logo=target&logoColor=22D3EE&labelColor=1E293B">
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Status-Open_to_ML%2FAI_Internships-0891B2?style=flat-square&logo=target&logoColor=white&labelColor=0F172A">
+    <img src="https://img.shields.io/badge/Status-Open_to_ML%2FAI_Internships-080B12?style=flat-square&logo=target&logoColor=22D3EE&labelColor=1E293B" alt="Open to ML/AI internships" />
+  </picture>
 </p>
 
 <!-- 2. Intro: 2 Lines Max -->
@@ -23,13 +27,37 @@
 
 <!-- Row of 4 Matching Links -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/gargi-mehta-a2ba36300/"><img src="https://img.shields.io/badge/LinkedIn-080B12?style=flat&logo=linkedin&logoColor=22D3EE" height="20" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/gargi-mehta-a2ba36300/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-080B12?style=flat-square&logo=linkedin&logoColor=22D3EE">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-0891B2?style=flat-square&logo=linkedin&logoColor=white">
+      <img src="https://img.shields.io/badge/LinkedIn-080B12?style=flat-square&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" />
+    </picture>
+  </a>
   &nbsp;
-  <a href="https://gaargimehta.github.io/Gaargimehta/"><img src="https://img.shields.io/badge/Portfolio-080B12?style=flat&logo=googlechrome&logoColor=22D3EE" height="20" alt="Portfolio" /></a>
+  <a href="https://gaargimehta.github.io/Gaargimehta/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Portfolio-080B12?style=flat-square&logo=googlechrome&logoColor=22D3EE">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Portfolio-0891B2?style=flat-square&logo=googlechrome&logoColor=white">
+      <img src="https://img.shields.io/badge/Portfolio-080B12?style=flat-square&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" />
+    </picture>
+  </a>
   &nbsp;
-  <a href="mailto:gargimehta022@gmail.com"><img src="https://img.shields.io/badge/Email-080B12?style=flat&logo=gmail&logoColor=22D3EE" height="20" alt="Email" /></a>
+  <a href="mailto:gargimehta022@gmail.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Email-080B12?style=flat-square&logo=gmail&logoColor=22D3EE">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Email-0891B2?style=flat-square&logo=gmail&logoColor=white">
+      <img src="https://img.shields.io/badge/Email-080B12?style=flat-square&logo=gmail&logoColor=22D3EE" alt="Email" />
+    </picture>
+  </a>
   &nbsp;
-  <a href="https://github.com/Gaargimehta/Gaargimehta/blob/main/assets/Gargi_Mehta_Resume.pdf"><img src="https://img.shields.io/badge/Resume-080B12?style=flat&logo=adobeacrobatreader&logoColor=22D3EE" height="20" alt="Resume PDF" /></a>
+  <a href="https://github.com/Gaargimehta/Gaargimehta/blob/main/assets/Gargi_Mehta_Resume.pdf">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Resume_PDF-080B12?style=flat-square&logo=adobeacrobatreader&logoColor=22D3EE">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Resume_PDF-0891B2?style=flat-square&logo=adobeacrobatreader&logoColor=white">
+      <img src="https://img.shields.io/badge/Resume_PDF-080B12?style=flat-square&logo=adobeacrobatreader&logoColor=22D3EE" alt="Resume PDF" />
+    </picture>
+  </a>
 </p>
 
 </div>
