@@ -248,7 +248,33 @@ When presenting your B.Tech project to examiners, follow this 5-minute demonstra
 
 ---
 
-## 9. Academic Integrity & Ground-Truth Quarantining
+## 9. Dataset Architecture & Forensic Benchmark Specifications
+
+Following methodology from the **OECD Competition Committee** and **World Bank Procurement Integrity Guidelines**, ProcureGuard AI utilizes a statistically calibrated e-procurement benchmark with mathematically defined ground truth.
+
+### Scale & Metrics
+- **Total Tenders:** 120 government procurement packages (\$800K to \$18M each)
+- **Total Submissions:** 521 itemized competitive bids with timestamps and IP routing
+- **Supplier Directory:** 38 registered contractors (30+ legitimate independent firms + 3 cartel coalitions)
+- **Cumulative Monitored Value:** \$326.72 Million
+- **Procurement Sectors:** 6 public sectors (Civil Infrastructure, Medical Equipment, IT Cloud Systems, Security & Surveillance, Municipal Environmental, Education Logistics)
+- **Jurisdictions:** 7 regional procurement zones
+
+### The 4 Simulated Bidding Scenarios
+
+| Scenario | Distribution | Participating Entities | Key Forensic Signals |
+|---|---|---|---|
+| **Normal Competitive** | ~70% (Tenders 39–120) | 30+ Independent Vendors | Price variance ($CV > 6\%–12\%$), bids between $88.5\%–107.5\%$ of estimate, diverse IP subnets, wide winning margins ($>3.5\%$). |
+| **Bid Rotation Ring (Cartel Ring Alpha)** | ~12% (Tenders 1–15) | Apex Infra, BuildTech Corp, Vertex Constructors | Alternating winner sequence across 15 highway tenders; designated winner bids at $98.1\%–99.5\%$; cover bids inflated by $+6.5\%$ to $+13.5\%$; shared `/24` IP subnet (`192.168.42.x`); Jaccard co-participation $J > 0.65$. |
+| **Cover Bidding & Price Pegging (Cartel Ring Beta)** | ~10% (Tenders 16–28) | MedSupply Global, HealthCare Innovations, BioPharma Direct | MedSupply persistently wins with quote pegged at $98.5\%–99.8\%$ of estimate; companion quotes submit token bids with exact $+0.8\%$ offset; identical IP subnet (`10.45.88.x`) within seconds. |
+| **Market Allocation (Cartel Ring Gamma)** | ~8% (Tenders 29–38) | CyberShield Systems, SecureNet Technologies, OmniData | Pre-arranged geographic division between Western Tech Corridor and Central Highlands; razor-thin winning margins ($<1.5\%$). |
+
+### Real-World Data Ingest
+The platform includes an automated ingestion module (`/api/dataset/upload`) accepting any standard public e-procurement CSV (e.g. GeM, CPPP, or World Bank logs) with automatic deduplication, missing value sanitization, and feature calculation.
+
+---
+
+## 10. Academic Integrity & Ground-Truth Quarantining
 
 To adhere to rigorous machine learning standards:
 - The simulated ground truth labels (`Normal Competitive`, `Simulated Bid Rotation`, `Simulated Cover Bidding`) are explicitly stored in separate database columns and are **never** passed into model training as features.
